@@ -1,0 +1,78 @@
+body {
+	background-color: blue;
+}
+
+div {
+	text-align: right;
+	border: 5px dashed black;
+	padding: 50px 0px;
+	background-color:pink;
+	color:blue;
+ margin:100px;		width: 50%;
+}
+
+span {
+	border: 2px dotted red;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: yellow;
+	margin:10px;
+}
+
+span:hover {
+	border: 10px dashed red;
+	background-color: orange;
+}
+
+a {
+	color: #FFF;
+	border: 1px solid #CCC;
+	padding: 10px;
+	margin: 10px; position:absolute; bottom:0; right:0; text-decoration:none;
+}
+
+a:hover {
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+#suhaib {
+	border: 10px dotted #333;
+	outline: 10px dashed yellow;
+	border-radius: 20px;
+	margin: 30px 13em 20px 200px;
+}
+
+#suhaib:hover {
+	border: 10px dashed #333;
+	outline: 10px dotted yellow;
+}
+
+ul > li {
+	display: inline;
+	border: 1px solid #FFF;
+	padding: 5px 20px;
+}
+
+ul > li:hover {
+	background-color: #CCC;
+}
+
+.login-table * {
+	border: 1px solid #FFF;
+}
+
+.login-table {
+	font-size: 20px;
+}
+
+.login-table td {
+	background-color: #c33;
+	height: 30px;
+	padding: 5px 20px;
+}
+
+table.login-table input {
+	padding: 5px 20px;
+	border-radius: 10px;
+}
